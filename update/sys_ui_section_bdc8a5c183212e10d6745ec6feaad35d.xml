@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Collaborations Entry" section_id="bdc8a5c183212e10d6745ec6feaad35d" sys_domain="global" table="x_58872_needit_collaborations_entry" version="3" view="Portal_Entry">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:13</sys_created_on>
+            <sys_id>23f17e5583696e10d6745ec6feaad3db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:13</sys_updated_on>
+            <text>Please provide 2-3 sentences about the collaboration, include notable products/outcomes (if applicable), and please define acronyms</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>ebf1be5583696e10d6745ec6feaad385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acronym</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>2bf1be5583696e10d6745ec6feaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fiscal_year</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>23f1be5583696e10d6745ec6feaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>23f17e5583696e10d6745ec6feaad3db</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>2bf1be5583696e10d6745ec6feaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>23f1be5583696e10d6745ec6feaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website_url_s</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>2bf1be5583696e10d6745ec6feaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fy_the_collaborative_activity_originated</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>23f1be5583696e10d6745ec6feaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lead_doc</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>2bf1be5583696e10d6745ec6feaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_docs</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>23f1be5583696e10d6745ec6feaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>poc</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>eff1be5583696e10d6745ec6feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>references</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>e7f1be5583696e10d6745ec6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nih_ic_od_collaborators</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-15 20:34:14</sys_created_on>
+            <sys_id>eff1be5583696e10d6745ec6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Collaborations Entry" display_value="Collaborations Entry" name="x_58872_needit_collaborations_entry" sys_domain="global" view="71c8a5c183212e10d6745ec6feaad359">bdc8a5c183212e10d6745ec6feaad35d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-15 20:34:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Collaborations Entry</caption>
+            <header>false</header>
+            <name>x_58872_needit_collaborations_entry</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-14 20:35:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdc8a5c183212e10d6745ec6feaad35d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_collaborations_entry</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_bdc8a5c183212e10d6745ec6feaad35d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-14 20:35:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal Entry" name="Portal_Entry">71c8a5c183212e10d6745ec6feaad359</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

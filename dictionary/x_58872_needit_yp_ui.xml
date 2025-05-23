@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5560d90b8351a210d6745ec6feaad337" extends="task" label="YP ui" max_length="40" name="x_58872_needit_yp_ui" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,show_checkboxes=true" choice="1" label="Categories" max_length="4000" name="categories" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Black" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Red" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Purple" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Green" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="White" sequence="4" value="5"/>
+            </choice>
+        </element>
+    </element>
+</database>

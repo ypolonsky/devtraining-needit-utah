@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="spReferenceElementV2">4a7e711083a52a10d6745ec6feaad328</sp_angular_provider>
+        <sp_widget display_value="Form Modified">0d4682838355a210d6745ec6feaad3f1</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 14:20:06</sys_created_on>
+        <sys_id>b19ff11083a52a10d6745ec6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spReferenceElement.Form Modified</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_b19ff11083a52a10d6745ec6feaad36c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-12 14:20:06</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>

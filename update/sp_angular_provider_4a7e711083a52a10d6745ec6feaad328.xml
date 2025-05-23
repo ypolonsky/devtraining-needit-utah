@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_angular_provider">
+    <sp_angular_provider action="INSERT_OR_UPDATE">
+        <name>spReferenceElementV2</name>
+        <script><![CDATA[function spReferenceElementV2() {
+
+	return {
+		restrict: "E",
+        replace: true,
+        scope: {
+            ed: "=?",
+            field: "=",
+            refTable: "=?",
+            refId: "=?",
+            snOptions: "=?",
+            snOnBlur: "&",
+            snOnClose: "&",
+            minimumInputLength: "@",
+            snDisabled: "=",
+            dropdownCssClass: "@",
+            formatResultCssClass: "&",
+            displayColumn: "@",
+            recordValues: "&",
+            getGlideForm: "&glideForm",
+            domain: "@",
+            snSelectWidth: "@",
+            labelId: "@?",
+			getColumns: "&",
+			snChange: "&",
+			onChange: "&"
+        },
+        template: '<div><input type="text" id="sp_formfield_{{::field.name}}" name="{{::field.name}}" ng-disabled="snDisabled" class="input-field-min-width" aria-hidden="true" ng-model="field.stagedValue" ng-change="onChange()"/><div class="row"><div class="col-md-4" ng-repeat="column in ::getColumns(field)"><div class="form-check" ng-repeat="entry in column"><input class="form-check-input" type="checkbox"/><label class="form-check-label">{{entry.label}}</label></div></div></div>',
+		link: function(scope, element) {
+			var retColumns = null;
+			scope.getColumns = function(field) {
+				if (retColumns != null) {
+					return retColumns;
+				}
+				retColumns = [];
+				if (field.choices && field.choices.length > 0) {
+					var startIndex = 0;
+					var choicesLen = field.choices.length;
+					if (field.choices[0].value == '') {
+						startIndex = 1;
+						choicesLen -= 1;
+					}
+					var numRows = Math.ceil(choicesLen / 3.0);
+					for (var colIndex = 0; colIndex < 3; colIndex++) {
+						var column = [];
+						for (var rowIndex = 0; rowIndex < numRows; rowIndex++) {
+							var choiceIndex = startIndex + colIndex * numRows;
+							column.push(field.choices[choiceIndex + rowIndex]);
+						}
+						retColumns.push(column);
+					}
+				}
+				console.log("GET CHOICES");
+				console.log(retColumns);
+				return retColumns;
+			};
+
+			scope.onChange = function() {
+				console.log("ON CHANGE:");
+				scope.field.value = scope.field.stagedValue;
+				console.log(scope.field);
+			};
+
+			console.log(scope.field);
+			console.log("Field show_checkboxes attribute: " + scope.field.attributes.show_checkboxes);
+			var $el = element;
+			var column_class = "col-md-2";
+			while ($el) {
+				if ($el.hasClass("col-md-12")) {
+					column_class = "col-md-4";
+					break;
+				}
+				else if ($el.hasClass("col-md-6")) {
+					break;
+				}
+				$el = $el.parent();
+			}
+			console.log("Number of checkbox columns = " + column_class);
+		}
+	}
+}]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-12 14:20:06</sys_created_on>
+        <sys_id>4a7e711083a52a10d6745ec6feaad328</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>spReferenceElementV2</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_angular_provider_4a7e711083a52a10d6745ec6feaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 13:22:46</sys_updated_on>
+        <type>directive</type>
+    </sp_angular_provider>
+</record_update>

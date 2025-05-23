@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Custom_Test</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 13:12:44</sys_created_on>
+        <sys_id>4cd985038351a210d6745ec6feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_view_4cd985038351a210d6745ec6feaad3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 13:12:44</sys_updated_on>
+        <title>Custom Test</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bf741ac0eb416a54cbbffceacad0cd62</instance_id>
+        <instance_name>dev330245</instance_name>
+        <name>sys_ui_view_4cd985038351a210d6745ec6feaad3b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Custom_Test</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-08 13:12:44</sys_created_on><sys_id>4cd985038351a210d6745ec6feaad3b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Custom Test</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_view_4cd985038351a210d6745ec6feaad3b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-08 13:12:44</sys_updated_on><title>Custom Test</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>546757543</payload_hash>
+        <record_name>Custom Test</record_name>
+        <reverted_from/>
+        <source>c745003283192210d6745ec6feaad3d8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 13:12:44</sys_created_on>
+        <sys_id>4cd985038351a210d6745ec6feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196b006e8290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 13:12:44</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>00d985039c51a21066966cb34635cbb6</update_guid>
+        <update_guid_history>00d985039c51a21066966cb34635cbb6:546757543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-08 13:39:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>2a7eb345898f4c9fb0f73f04b2ae7aa1</sys_id>
+        <sys_metadata>4cd985038351a210d6745ec6feaad3b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Test</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_view_4cd985038351a210d6745ec6feaad3b2</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_4cd985038351a210d6745ec6feaad3b2">4cd985038351a210d6745ec6feaad3b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-08 13:39:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

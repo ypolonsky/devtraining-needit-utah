@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fbeb598183edea10d6745ec6feaad38d" extends="kb_knowledge" label="Collaborations Entry" max_length="40" name="x_58872_needit_collaborations_entry" type="collection">
+        <element label="Title" mandatory="true" max_length="200" name="title" type="string"/>
+        <element label="References" max_length="200" name="references" type="string"/>
+        <element label="FY the Collaborative Activity Originated" mandatory="true" max_length="20" name="fy_the_collaborative_activity_originated" type="string"/>
+        <element label="Website URL(s)" max_length="200" name="website_url_s" type="string"/>
+        <element choice="1" label="Lead DOC" mandatory="true" max_length="40" name="lead_doc" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CCR" sequence="40" value="CCR"/>
+                <element inactive_on_update="false" label="DCB" sequence="90" value="DCB"/>
+                <element inactive_on_update="false" label="CCG" sequence="30" value="CCG"/>
+                <element inactive_on_update="false" label="CRCHD" sequence="70" value="CRCHD"/>
+                <element inactive_on_update="false" label="CBIIT" sequence="10" value="CBIIT"/>
+                <element inactive_on_update="false" label="CCT" sequence="50" value="CCT"/>
+                <element inactive_on_update="false" label="OHAM" sequence="150" value="OHAM"/>
+                <element inactive_on_update="false" label="DCEG" sequence="110" value="DCEG"/>
+                <element inactive_on_update="false" label="SBIR" sequence="160" value="SBIR"/>
+                <element inactive_on_update="false" label="DCTD" sequence="130" value="DCTD"/>
+                <element inactive_on_update="false" label="CSSI" sequence="80" value="CSSI"/>
+                <element inactive_on_update="false" label="OOC" value="OOC"/>
+                <element inactive_on_update="false" label="CCCT" sequence="20" value="CCCT"/>
+                <element inactive_on_update="false" label="CGH" sequence="60" value="CGH"/>
+                <element inactive_on_update="false" label="TTC" sequence="170" value="TTC"/>
+                <element inactive_on_update="false" label="Frederick" sequence="140" value="Frederick"/>
+                <element inactive_on_update="false" label="Select DOC" sequence="1" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="DCCPS" sequence="100" value="DCCPS"/>
+                <element inactive_on_update="false" label="DCP" sequence="120" value="DCP"/>
+            </choice>
+        </element>
+        <element label="POC" max_length="200" name="poc" type="string"/>
+        <element label="Acronym" max_length="40" name="acronym" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,show_checkboxes=true" choice="1" label="Other DOCs" max_length="4000" name="other_docs" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="CBIIT" sequence="0" value="vCBIIT"/>
+                <element inactive_on_update="false" label="CCT" sequence="4" value="vCCT"/>
+                <element inactive_on_update="false" label="CSSI" sequence="7" value="vCSSI"/>
+                <element inactive_on_update="false" label="SBIR" sequence="16" value="vSBIR"/>
+                <element inactive_on_update="false" label="DCB" sequence="8" value="vDCB"/>
+                <element inactive_on_update="false" label="DCCPS" sequence="9" value="vDCCPS"/>
+                <element inactive_on_update="false" label="CGH" sequence="5" value="vCGH"/>
+                <element inactive_on_update="false" label="Frederick" sequence="13" value="vFrederick"/>
+                <element inactive_on_update="false" label="DCEG" sequence="10" value="vDCEG"/>
+                <element inactive_on_update="false" label="CCG" sequence="2" value="vCCG"/>
+                <element inactive_on_update="false" label="TTC" sequence="17" value="vTTC"/>
+                <element inactive_on_update="false" label="CRCHD" sequence="6" value="vCRCHD"/>
+                <element inactive_on_update="false" label="DCP" sequence="11" value="vDCP"/>
+                <element inactive_on_update="false" label="DCTD" sequence="12" value="vDCTD"/>
+                <element inactive_on_update="false" label="OCC" sequence="14" value="vOCC"/>
+                <element inactive_on_update="false" label="CCCT" sequence="1" value="vCCCT"/>
+                <element inactive_on_update="false" label="OHAM" sequence="15" value="vOHAM"/>
+                <element inactive_on_update="false" label="CCR" sequence="3" value="vCCR"/>
+            </choice>
+        </element>
+        <element label="FY" max_length="20" name="fiscal_year" type="string"/>
+        <element choice="1" label="NIH IC/OD Collaborators" max_length="40" name="nih_ic_od_collaborators" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All NIH ICs" sequence="10" value="All NIH ICs"/>
+                <element inactive_on_update="false" label="CC" sequence="20" value="CC"/>
+                <element inactive_on_update="false" label="NCI" sequence="100" value="NCI"/>
+                <element inactive_on_update="false" label="CIT" sequence="30" value="CIT"/>
+                <element inactive_on_update="false" label="No NIH IC/OD Collaborators" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+    </element>
+</database>
