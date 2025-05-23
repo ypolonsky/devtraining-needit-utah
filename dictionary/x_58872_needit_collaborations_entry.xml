@@ -29,7 +29,7 @@
         </element>
         <element label="POC" max_length="200" name="poc" type="string"/>
         <element label="Acronym" max_length="40" name="acronym" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,show_checkboxes=true" choice="1" label="Other DOCs" max_length="4000" name="other_docs" type="glide_list">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,show_checkboxes=true" choice="1" label="Other DOCs" mandatory="true" max_length="4000" name="other_docs" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="CBIIT" sequence="0" value="vCBIIT"/>
                 <element inactive_on_update="false" label="CCT" sequence="4" value="vCCT"/>
